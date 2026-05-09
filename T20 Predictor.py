@@ -300,6 +300,15 @@ if ins==2:
    print(win1)
    print(team2)
    print(win2)
+   size=(win1,win2)
+   labels=(team1,team2)
+   colors=("#076ee3","#cc0000")
+   plt.pie(size,labels=labels,colors=colors, autopct="%1.1f%%", startangle=90)
+   plt.show()
+  else:
+    print("Match Completed") 
+     
+    
   else:
     print("Match Completed") 
      

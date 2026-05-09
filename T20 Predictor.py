@@ -1,7 +1,7 @@
 import random
 import math
 print("T20 Match Predictor")
-t=input("Tournament - IPL OR T20I ?").lower
+t=input("Tournament - IPL OR T20I ?").lower()
 if(t=="t20i"):
  tier1=["IND","SA","WI","AUS","ENG","NZ","PAK"]
  tier2=["BAN","AFG","SL","ZIM","USA","IRE"]

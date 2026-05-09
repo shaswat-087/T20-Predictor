@@ -1,5 +1,5 @@
-#T20 Predictor
- Divided the international cricket teams into three tiers based on their current ICC rankings to factor relative strengths.
+T20 Predictor
+Divided the international cricket teams into three tiers based on their current ICC rankings to factor relative strengths.
 
 This model calculates multiple projected scores and probability using different mathematical models as mentioned below-
 ☆  Linear run-rate projection

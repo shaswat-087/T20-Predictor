@@ -50,12 +50,13 @@ A Python-based tool to estimate **projected scores** and **winning probabilities
 
 ---
 
-
+## * Updated Feature *:
+- Visualize win probabilities with a piechart using Matplotlib.
 
 
 ## 📂 Future Improvements
 - Add live data integration (e.g., from CricAPI).
-- Visualize projections using Matplotlib.
+
 - Extend to ODI formats.
 
 ---

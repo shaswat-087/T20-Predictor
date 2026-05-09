@@ -1,15 +1,10 @@
 import random
 import math
 print("T20 Match Predictor")
-t=input("Tournament - IPL OR T20I ?").lower()
-if(t=="t20i"):
- tier1=["IND","SA","WI","AUS","ENG","NZ","PAK"]
- tier2=["BAN","AFG","SL","ZIM","USA","IRE"]
- tier3=["SCO","NEP","NED","NAM","CAN","OMA","UAE"]
-elif(t=="ipl"):
-  tier1=["RR","RCB","PBKS","SRH"]
-  tier2=["CSK","GT","LSG","DC"]
-  tier3=["MI","KKR"] #based on IPL standings of 2026 season as per 18.4.26     
+
+tier1=["IND","SA","WI","AUS","ENG","NZ","PAK","RR","RCB","PBKS","SRH"]
+tier2=["CSK","GT","KKR","BAN","AFG","SL","ZIM","USA","IRE"]
+tier3=["MI","LSG","DC","SCO","NEP","NED","NAM","CAN","OMA","UAE"]    
 
 print("Innings")
 ins=int(input())

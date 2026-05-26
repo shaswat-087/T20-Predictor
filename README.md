@@ -22,17 +22,16 @@ A Python-based tool to estimate **projected scores** and **winning probabilities
 ---
 
 ## ⚙️ How It Works
-1. **Input Tournament**: Choose `IPL` or `T20I`.
-2. **Select Innings**:  
+1. **Select Innings**:  
    - `1` → First innings projection  
    - `2` → Second innings chase probability
-3. **Provide Match Data**:
+2. **Provide Match Data**:
    - Batting team, Bowling team
    - Runs, Wickets, Overs (in format `Ovs.balls`)
    - Fall of wicket score (if applicable)
    - Ground average score
    - Last 3 overs performance (optional, improves accuracy)
-4. **Output**:
+3. **Output**:
    - Projected score at the end of innings
    - Winning probability (%) for both teams
 
